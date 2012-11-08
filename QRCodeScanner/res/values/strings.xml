@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, QRCodeScanner!</string>
+    <string name="app_name">QRCodeScanner</string>
+    <string name="addDialogTitle">New Entry</string>
+    <string name="addItem">Add Item</string>
+    <string name="cancelItem">Cancel</string>
+
+</resources>

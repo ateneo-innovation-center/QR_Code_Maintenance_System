@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rowLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+	
+	<TextView 
+	    android:id="@+id/Log"
+	    android:layout_width="wrap_content" 
+	    android:layout_alignParentRight="true"
+		android:layout_height="wrap_content" 
+		android:text="Log" 
+		android:gravity="right"/>
+
+	<TextView
+	    android:id="@+id/ID"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_alignParentTop="true"
+	    android:text="ID" />
+
+	<TextView
+	    android:id="@+id/filePath"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_below="@+id/ID"
+	    android:layout_marginTop="18dp"
+	    android:text="File path" />
+
+	<TextView
+	    android:id="@+id/Room"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_below="@+id/ID"
+	    android:text="Room" />
+
+	<TextView
+	    android:id="@+id/timeStamp"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBaseline="@+id/Room"
+	    android:layout_alignBottom="@+id/Room"
+	    android:layout_alignParentRight="true"
+	    android:text="Timestamp" />
+	
+</RelativeLayout>
+
